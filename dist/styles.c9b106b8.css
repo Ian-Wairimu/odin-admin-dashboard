@@ -24,6 +24,61 @@ body {
     height: 100vh;
     padding: 20px;
 }
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo > img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.logo > h1 {
+    font-size: 1.6rem;
+}
+.sidebar-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 100%;
+}
+.sidebar-navigation_top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.sidebar-navigation_top > ul > li {
+    cursor: pointer;
+    list-style-type: none;
+}
+.sidebar-navigation_top > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+.sidebar-navigation_bottom > ul > li{
+    cursor: pointer;
+    list-style-type: none;
+}
+.sidebar-navigation_bottom > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+.material-icons.md-40 {
+    font-size: 1.15rem;
+    margin-right: 20px;
+}
 .main {
     flex: 4;  
     background-color: #CBE2F3;
